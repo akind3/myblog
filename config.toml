@@ -1,0 +1,64 @@
+baseURL = "https://akind3.github.io/"
+languageCode = "en-us"
+title = "小木木"
+theme = "ink"
+paginate = 5
+
+copyright = "©"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-123-45"
+disqusShortname = "ink-demo"
+
+[params]
+	subtitle = "像雾像雨又像~风~"
+
+	# Optional 64x64 avatar image.
+	avatar = "https://avatars2.githubusercontent.com/u/10860321?s=460&v=4"
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "主页"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "文章"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "关于"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "分类"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/knadh/hugo-ink"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
